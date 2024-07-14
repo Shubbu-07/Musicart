@@ -2,22 +2,18 @@ import React, { useState } from "react";
 import "../Style.css";
 import logo from "../Assets/logo.svg";
 import { Link } from "react-router-dom";
-import axios from "axios";
-import {useNavigate} from "react-router-dom";
+import axios from 'axios';
 
 const Signup = () => {
   const [name, setName] = useState('');
   const [number, setNumber] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const navigate = useNavigate();
 
   const handleSubmit = (e) => {
     e.preventDefault();
     axios.post('http://localhost:3001/signup', { name, number, email, password })
-      .then(result => {console.log(result)
-        navigate('/');
-      })
+      .then(result => console.log(result))
       .catch(err => console.log(err));
   }
 
