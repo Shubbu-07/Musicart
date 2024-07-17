@@ -1,286 +1,318 @@
-  .signin-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 97vh;
-    margin: 0;
-  }
-  
-  .signin-container header {
-    text-align: center;
-    margin: 10px 0 10px 0;
-  }
-  
-  .signin-container header .logo {
-    width: 40px;
-    height: auto;
-    margin-right: 10px;
-    vertical-align: middle;
-  }
-  
-  .signin-container header h1 {
-    display: inline-block;
-    font-size: 1.5em;
-    color: #333;
-    vertical-align: middle;
-  }
-  
-  .form-container {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 320px;
-    height: 360px;
-    text-align: center;
-  }
-  
-  .signup-form-container {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 320px;
-    text-align: center;
-  }
-  
-  .form-container form {
-    margin: 10px;
-  }
-  
-  .form-container h2 {
-    margin-bottom: 20px;
-  }
-  .signup-form-container form {
-    margin: 10px;
-  }
-  
-  .signup-form-container h2 {
-    margin-bottom: 20px;
-  }
-  
-  .form-group {
-    margin-bottom: 15px;
-    text-align: left;
-  }
-  
-  .form-group label {
-    font-weight: 500;
-    display: block;
-    margin-bottom: 5px;
-  }
-  
-  .form-group input[type="text"],
-  .form-group input[type="tel"],
-  .form-group input[type="email"],
-  .form-group input[type="password"] {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  .continuebtn {
-    width: 100%;
-    padding: 10px;
-    background-color: #2e0052;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 1em;
-  }
-  
-  .continuebtn:hover {
-    background-color: rgb(96, 10, 134);
-  }
-  
-  .privacy-notice {
-    padding: 10px;
-    font-size: 0.8em;
-    color: #555;
-    margin-top: 10px;
-  }
-  
-  .new-musicart {
-    padding: 20px;
-  }
-  
-  .new-to-musicart {
-    text-align: center;
-    font-size: 1em;
-    margin-bottom: 10px;
-  }
-  
-  .create-account-button {
-    width: 320px;
-    padding: 10px;
-    background-color: #fff;
-    color: #2e0052;
-    border: 1px solid #2e0052;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 1em;
-  }
-  
-  .create-account-button:hover {
-    background-color: #f3e5f5;
-  }
-  
-  .already-account {
-    margin-top: 10px 0 10px 0;
-    font-size: 0.9em;
-  }
-  
-  .already-account a {
-    color: #2e0052;
-    text-decoration: none;
-  }
-  
-  .already-account a:hover {
-    text-decoration: underline;
-  }
+.signin-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 97vh;
+  margin: 0;
+}
 
-  /* ---------------------------------------Navbar section--------------------------------------- */
+.signin-container header {
+  text-align: center;
+  margin: 10px 0 10px 0;
+}
+
+.signin-container header .logo {
+  width: 40px;
+  height: auto;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.signin-container header h1 {
+  display: inline-block;
+  font-size: 1.5em;
+  color: #333;
+  vertical-align: middle;
+}
+
+.form-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 320px;
+  height: 400px;
+  text-align: center;
+}
+
+.signup-form-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 320px;
+  text-align: center;
+}
+
+.form-container form {
+  margin: 10px;
+}
+
+.form-container h2 {
+  margin-bottom: 20px;
+}
+.signup-form-container form {
+  margin: 10px;
+}
+
+.signup-form-container h2 {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-group label {
+  font-weight: 500;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="tel"],
+.form-group input[type="email"],
+.form-group input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.continuebtn {
+  width: 100%;
+  padding: 10px;
+  background-color: #2e0052;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.continuebtn:hover {
+  background-color: rgb(96, 10, 134);
+}
+
+.privacy-notice {
+  padding: 10px;
+  font-size: 0.8em;
+  color: #555;
+  margin-top: 10px;
+}
+
+.new-musicart {
+  padding: 20px;
+}
+
+.new-to-musicart {
+  text-align: center;
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+.create-account-button {
+  width: 320px;
+  padding: 10px;
+  background-color: #fff;
+  color: #2e0052;
+  border: 1px solid #2e0052;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.create-account-button:hover {
+  background-color: #f3e5f5;
+}
+
+.already-account {
+  margin-top: 10px 0 10px 0;
+  font-size: 0.9em;
+}
+
+.already-account a {
+  color: #2e0052;
+  text-decoration: none;
+}
+
+.already-account a:hover {
+  text-decoration: underline;
+}
+
+/* ---------------------------------------Navbar section--------------------------------------- */
 
 .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
 }
 
 .left-side {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .nav-logo {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .nav-logo-img {
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
 }
 
 .nav-logo-text {
-    font-size: 24px;
-    font-weight: bold;
-    color: #2E0052;
-
+  font-size: 24px;
+  font-weight: bold;
+  color: #2e0052;
 }
 
 .nav-links {
-    display: flex;
-    align-items: center;
-    margin-left: 20px;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
 }
 
 .nav-link {
-    margin: 0 10px;
-    text-decoration: none;
-    font-size: 18px;
-    color: #000000;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #000000;
 }
 
 .nav-link:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .nav-actions {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .cart-button {
-    display: flex;
-    align-items: center;
-    background-color: #1D7000;
-    color: #ffffff;
-    border: none;
-    border-radius: 20px;
-    padding: 10px 15px;
-    font-size: 16px;
-    cursor: pointer;
-    margin-right: 20px;
+  display: flex;
+  align-items: center;
+  background-color: #1d7000;
+  color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 20px;
 }
 
 .cart-icon {
-    width: 20px;
-    height: 20px;
-    margin-right: 5px;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
 }
 
 .cart-count {
-    margin-left: 5px;
-    border-radius: 50%;
-    padding: 2px 6px;
+  margin-left: 5px;
+  border-radius: 50%;
+  padding: 2px 6px;
 }
 
 .profile-icon {
-    width: 40px;
-    height: 40px;
-    border: 2px solid;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 18px;
-    font-weight: bold;
+  width: 40px;
+  height: 40px;
+  border: 2px solid;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: bold;
 }
 
-  
-  /* ---------------------------------------Footer section--------------------------------------- */
-  .page-footer {
-    text-align: center;
-    padding: 15px;
+/* ---------------------------------------Home section--------------------------------------- */
+
+.banner {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(90deg, #7286b4 0%, #e794ce 100%);
+  border-radius: 1rem;
+  margin: 4rem 0 0 0;
+}
+
+.banner-img {
+  z-index: 1;
+  position: relative;
+  margin-top: -4rem;
+  margin-right: 2rem;
+}
+
+.banner-img img{
+  height: 264px;
+}
+
+.banner-content {
+  width: 100%;
+  margin: 0 7rem;
+  color: #2e0052;
+}
+
+.banner-content h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+/* ---------------------------------------Footer section--------------------------------------- */
+.page-footer {
+  text-align: center;
+  padding: 1.2rem;
+  background-color: #2e0052;
+  color: white;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.page-footer p{
+  margin: 0;
+}
+/* ---------------------------------------Media Queries for Mobile View --------------------------------------- */
+@media only screen and (max-width: 768px) {
+  .nav-mobile {
     background-color: #2e0052;
-    color: white;
+    padding: 15px;
     width: 100%;
     position: absolute;
-    bottom: 0;
+    top: 0;
     left: 0;
   }
-  
-  /* ---------------------------------------Media Queries for Mobile View --------------------------------------- */
-  @media only screen and (max-width: 768px) {
-    .nav-mobile {
-      background-color: #2e0052;
-      padding: 15px;
-      width: 100%;
-      position: absolute;
-      top: 0;
-      left: 0;
-    }
-  
-    header .navbar {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-  
-    header .logo-container h1 {
-      font-size: 1.2em;
-    }
-  
-    .form-container {
-      padding: 15px;
-    }
-  
-    .form-container h2 {
-      font-size: 1.5em;
-    }
-  
-    .form-container form input {
-      padding: 8px;
-    }
-  
-    .form-container form button {
-      padding: 8px;
-    }
+
+  header .navbar {
+    flex-direction: column;
+    align-items: flex-start;
   }
-  
+
+  header .logo-container h1 {
+    font-size: 1.2em;
+  }
+
+  .form-container {
+    padding: 15px;
+  }
+
+  .form-container h2 {
+    font-size: 1.5em;
+  }
+
+  .form-container form input {
+    padding: 8px;
+  }
+
+  .form-container form button {
+    padding: 8px;
+  }
+}
