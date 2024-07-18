@@ -265,6 +265,55 @@
   font-weight: 700;
 }
 
+/* ---------------------------------------Search section--------------------------------------- */
+
+.search {
+  padding: 1rem;
+  text-align: center;
+}
+
+.search input {
+  width: 80%;
+  padding: 1rem;
+  border-radius: 3rem;
+  border: 2px solid #ccc;
+}
+
+/* ---------------------------------------Filters section--------------------------------------- */
+
+.filters {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 1rem;
+  padding: 1rem;
+  height: 5rem;
+}
+
+.filters select {
+  background-color: #D9D9D9;
+  padding: 0.8rem;
+  border-radius: 2rem;
+  border: 1px solid #ccc;
+  margin: 0 1rem;
+}
+
+.filters button{
+  display: flex;
+  align-items: center;
+  border: none;
+  background:none;
+}
+
+.filter-content{
+  display: flex;
+  justify-content: space-around;
+}
+.grid-list-icon{
+  position: relative;
+  height: 3rem;
+}
+
+
 /* ---------------------------------------Footer section--------------------------------------- */
 .page-footer {
   text-align: center;
