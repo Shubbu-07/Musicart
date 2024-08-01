@@ -1,20 +1,29 @@
-import React from "react";
+import React, {useState} from "react";
 import Navbar from "./Navbar";
-import bannerImg from "../Assets/banner-image.png";
+import Banner from "./Banner";
+import products from "../Products";
+import Searchbar from "./Searchbar";
+import ProductFliter from "./ProductFilter";
+import ProductList from "./ProductList";
 
 const Home = () => {
+  const [searchTerm, setSearchTerm] = useState('');
+
+  const addToCart = (product) => {
+    console.log(`Added ${product.name} to cart`);
+  };
+
+  const filteredProducts = products.filter(product =>
+    product.name.toLowerCase().includes(searchTerm.toLowerCase())
+  );
+
   return (
     <div className="container">
       <Navbar />
-
-      <section className="banner">
-        <div className="banner-content">
-          <h1>Grab upto 50% off on Selected headphones</h1>
-        </div>
-        <div className="banner-img">
-          <img src={bannerImg} alt="Banner-Image" />
-        </div>
-      </section>
+      <Banner />
+      <Searchbar searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
+      <ProductFliter/>
+      <ProductList products={filteredProducts} addToCart={addToCart} />
     </div>
   );
 };
